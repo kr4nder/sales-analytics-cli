@@ -1,0 +1,23 @@
+## Артефакты сборки .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+*.user
+*.suo
+
+## Результаты тестов и покрытия
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+*.trx
+
+## Среды разработки
+.vs/
+.vscode/
+.idea/
+
+## Прочее
+*.log
+result.json

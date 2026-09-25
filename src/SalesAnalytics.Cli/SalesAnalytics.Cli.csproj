@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Слой представления: разбор аргументов и композиционный корень -->
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SalesAnalytics.Cli</RootNamespace>
+    <AssemblyName>SalesAnalytics.Cli</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SalesAnalytics.Core\SalesAnalytics.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Generic Host используется в режимах di и full -->
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SalesAnalytics.Cli/SalesAnalytics.Cli.csproj" />
+    <Project Path="src/SalesAnalytics.Core/SalesAnalytics.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SalesAnalytics.Tests/SalesAnalytics.Tests.csproj" />
+  </Folder>
+</Solution>
